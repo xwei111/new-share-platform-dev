@@ -1,0 +1,17 @@
+.container {
+    min-height: 100vh;
+}
+
+.content {
+    composes: clearfix from 'sharedStyles/global.css';
+    width: 100%;
+    margin: 0 auto;
+    min-height: calc(100vh - 50px - 25px);
+    /* header 50px, footer 25px */
+}
+
+.main {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}

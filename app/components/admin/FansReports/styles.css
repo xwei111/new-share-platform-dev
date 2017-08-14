@@ -1,0 +1,90 @@
+.container {
+  width:100%;
+  min-height:624px;
+  font-size:12px;
+  font-family: '微软雅黑',  Arial, sans-serif;
+  background:white;
+}
+
+.dateSelecter{width: 100%;height: 50px;margin: 0 auto;text-align: center;padding-top: 10px;}
+
+.mainContainer{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+.commonTit{
+    overflow: hidden;
+    width: 90%;
+    background: url(images/dashed_line.jpg) repeat-x center;
+    margin: 30px 0 20px 0;
+}
+.commonTit p{
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    background: #FFF;
+}
+.commonTit span{
+    position: absolute;
+    top: 0;left: 0;bottom: 0;margin: auto;
+    display: inline-block;
+    background: #419BF9;
+    width: 10px;height: 15px;
+}
+
+.lookDetail{
+  text-align: right;
+  cursor: pointer;
+  color: #999;
+  font-size: 14px;
+}
+.rightImg1{
+  float: left;
+  margin-left: 200px;
+}
+.rightImg2{
+  float: left;
+}
+
+.leftData{
+  float: left;
+  margin-left: 30px;
+}
+.leftData div{
+  color: #ccc;
+}
+.leftData p{
+  font-size: 34px;
+  line-height: 34px;
+}
+.nothing{
+  text-align: center;
+}
+
+.bigBox{
+  width: 33.33%;
+  height:300px;
+  float: left;
+  margin-left: -30px;
+  position: relative;
+}
+.bigBox h3{
+  text-align: center;
+  padding-left: 24px;
+}
+.fansNum{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding-left: 20px;
+  top: 146px;
+  z-index: 9999;
+  font-size: 16px;
+  font-weight: 700;
+}

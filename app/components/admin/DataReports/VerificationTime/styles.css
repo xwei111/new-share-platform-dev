@@ -1,0 +1,109 @@
+.lookDetail{
+  text-align: right;
+  cursor: pointer;
+  color: #999;
+  font-size: 14px;
+  margin-right: 95px;
+}
+.styleRelative{
+  position: relative;
+  color: #999;
+  font-size: 16px;
+}
+
+.styleRelativeWeek{
+  position: relative;
+  color: #999;
+  font-size: 16px;
+}
+
+
+.DetailTable{
+  -webkit-animation-duration:0.1s;
+  animation-duration:0.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  margin: 20px auto;
+  width: 800px;
+}
+.DetailTable_two{
+  margin-top: 20px;
+  -webkit-animation-duration:0.1s;
+  animation-duration:0.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    -webkit-transform: translate3d(0,100%, 0);
+    transform: translate3d(0,100%, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    -webkit-transform: translate3d(0,100%, 0);
+    transform: translate3d(0,100%, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+.tableStyle td,.tableStyle_two td{
+  border-left:1px solid #ccc;
+  border-top:1px solid #ccc;
+  text-align: center;
+
+}
+.tableStyle{
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  width: 800px;
+  color: #999;
+  font-size: 14px;
+}
+.tableStyle_two{
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  width: 400px;
+  color: #999;
+  font-size: 14px;
+}
+
+.commonTit{
+    overflow: hidden;
+    width: 90%;
+    background: url(images/dashed_line.jpg) repeat-x center;
+    margin: 30px 0 20px 0;
+}
+.commonTit p{
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    background: #FFF;
+}
+.commonTit span{
+    position: absolute;
+    top: 0;left: 0;bottom: 0;margin: auto;
+    display: inline-block;
+    background: #419BF9;
+    width: 10px;height: 15px;
+}

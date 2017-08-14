@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+build/
+.vscode
+.idea/
+test.js
+/app-0329
+/app/components/admin/RealtimeData/TotalData-bk

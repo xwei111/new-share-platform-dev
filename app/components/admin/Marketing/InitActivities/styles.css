@@ -1,0 +1,199 @@
+.container {
+    padding: 20px;
+}
+
+.containerTitle {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #DCE1E5;
+    color: #323232;
+}
+
+.title {
+    margin: 15px auto;
+    padding: 20px 0;
+    width: 850px;
+    border-bottom: 1px solid #DCE1E5;
+}
+
+.title_p {
+    color: #323232;
+    font-size: 14px;
+}
+
+.size {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.red {
+    color: #F89985;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.blue{
+    color: rgb(65, 155, 249);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.redall {
+    background: #FFEBE4;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+.button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.detail {
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    background: white;
+    padding: 20px 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.detail .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.detail .titleD {
+    font-size: 16px;
+    color: #323232;
+}
+
+.detail .detailDiv {
+    margin-top: 30px;
+}
+
+.detail .detailDiv span {
+    color: #323232;
+}
+
+.detail .detailDiv p {
+    margin-top: 18px;
+}
+
+.couponWrap {
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.couponBox {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.couponBox div {
+    cursor: pointer;
+}
+
+.couponBox img {
+    width: 270px;
+}
+
+.couponInfo {
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    height: 105px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: url(images/coupon_bg.png) no-repeat center;
+    background-size: 100% auto;
+    cursor: pointer;
+}
+
+.couponPic {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-right: 20px;
+    border-radius: 80px;
+    background: #FFF url(images/not_found.png) no-repeat center;
+    background-size: 100% auto;
+}
+
+.couponTit {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 12px;
+    width: 250px;
+}
+
+.couponFee {
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.couponFee span {
+    font-weight: bold;
+}
+
+.watchInside {
+    position: absolute;
+    bottom: 7px;
+    right: 10px;
+    font-size: 12px;
+}
+.couponInfoUl{
+    width: 80%;
+    margin: 0 auto;
+}
+.couponInfoUl li {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.couponInfoUl .leftName{
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    color: #999;
+}
+.couponInfoUl .rightName{
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    color: #000;
+    margin-left: 10px;
+}
+
+.row {
+  line-height: 30px;
+}
+
+.row td:nth-of-type(1) {
+    width: 33.3%;
+    text-align: right;
+    background-color: #f7f7f7;
+    color: #999;
+    padding: 0 10px;
+}
+
+.row td:nth-of-type(2) {
+    border: 1px solid #e9e9e9;
+    font-size:13px;
+    color: '#666';
+    padding: 0 10px;
+}
+
+.tabContainer {
+    border: 1px solid #e9e9e9;
+    width: 100%;
+}

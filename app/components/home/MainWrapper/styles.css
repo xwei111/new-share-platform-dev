@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+}
+
+.header {
+  composes: centeredContent from 'sharedStyles/global.css';
+  width: 100%;
+  background: #FFF;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer {
+  composes: centeredContent from 'sharedStyles/global.css';
+}

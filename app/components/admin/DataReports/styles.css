@@ -1,0 +1,212 @@
+.container {
+  width:100%;
+  min-height:624px;
+  font-size:12px;
+  font-family: '微软雅黑',  Arial, sans-serif;
+  background:white;
+}
+
+.dateSelecter{
+  width: 100%;
+  padding: 30px 0;
+  padding-bottom: 0;
+  background: #8FB2FF;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContainer{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+.commonTit{
+    overflow: hidden;
+    width: 90%;
+    background: url(images/dashed_line.jpg) repeat-x center;
+    margin: 30px 0 20px 0;
+}
+.commonTit p{
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    background: #FFF;
+}
+.commonTit span{
+    position: absolute;
+    top: 0;left: 0;bottom: 0;margin: auto;
+    display: inline-block;
+    background: #419BF9;
+    width: 10px;height: 15px;
+}
+
+.lookDetail{
+  text-align: right;
+  cursor: pointer;
+  color: #999;
+  font-size: 14px;
+  margin-right: 95px;
+}
+
+.mainNews{
+  width: 90%;
+  background: #FAFAF9;
+  padding:20px 30px;
+}
+.mainNews p{
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 16px;
+}
+.mainNews span{
+  font-size: 14px;
+  color: #666;
+}
+.dataIndex{
+  margin-top: 40px;
+  width: 90%;
+  margin-bottom:100px;
+  overflow: hidden;
+}
+.dataIndex .dataIndex_four{
+  font-size: 16px;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+}
+.dataIndex .dataIndex_four img{
+  margin-right: 5px;
+}
+.dataIndex .dataIndex_four p:last-child{
+  font-size: 28px;
+}
+.dataIndex .dataIndex_four:nth-child(1) p:last-child{
+  color: #FF6561;
+}
+.dataIndex .dataIndex_four:nth-child(2) p:last-child{
+  color: #00CFFF;
+}
+.dataIndex .dataIndex_four:nth-child(3) p:last-child{
+  color: #3500D8;
+}
+.dataIndex .dataIndex_four:nth-child(4) p:last-child{
+  color: #00C287;
+}
+.dataIndex_pic{
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+.dataIndex_pic .dataIndex_pic_title{
+  color:#FFC051;
+}
+.dataIndex .dataIndex_IconL p span,.dataIndex .dataIndex_IconR p span{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.dataIndex .dataIndex_IconL p:first-child span{
+  background: #DBF1FF;
+}
+.dataIndex .dataIndex_IconL p:last-child span{
+  background: #009BF8;
+
+}
+.dataIndex .dataIndex_IconR p:first-child span{
+  background: #FFDDD9;
+}
+.dataIndex .dataIndex_IconR p:last-child span{
+  background: #FF4645;
+}
+.dataIndex .dataIndex_pic_2{
+  background: url(images/dataIndex_pic_2.png) no-repeat center;
+  height: 100px;
+  text-align: center;
+}
+.dataIndex .dataIndex_pic_div{
+  line-height: 70px;
+}
+.dataIndex .dataIndex_pic_P{
+  text-align: center;
+  margin-top: -45px;
+  font-weight: bold;
+}
+.dataIndex .dataIndex_pic_1{
+  background: url(images/dataIndex_pic_1.png) no-repeat center;
+  height: 100px;
+  text-align: center;
+}
+.dataIndex .dataIndex_pic_3{
+  background: url(images/dataIndex_pic_3.png) no-repeat center;
+  height: 100px;
+  text-align: center;
+}
+.dataIndex .dataIndex_pic_4{
+  background: url(images/dataIndex_pic_4.png) no-repeat center;
+  height: 100px;
+  text-align: center;
+}
+.dataIndex  .dataIndex_pic_4,.dataIndex .dataIndex_pic_1{
+  color: white;
+}
+.MoreYChart{
+  width: 90%;
+  margin: 10px auto;
+}
+.goodsChoose{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.goodsCharts{
+  margin-bottom: 50px;
+}
+.goodsCharts tr td{
+  width: 200px;
+  height: 50px;
+  position: relative;
+}
+.goodsCharts tr:first-child td{
+  padding-left: 20px;
+}
+.goodsCharts tr td div{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  height: 30px;
+}
+.goodsCharts tr td:nth-of-type(2) div{
+  background:#FF8840;
+}
+.goodsCharts tr td:nth-of-type(3) div{
+  background:#FF675A;
+}
+.goodsCharts tr td:nth-of-type(4) div{
+  background:#5ABBFF;
+}
+.goodsCharts tr td span{
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  color: #000;
+}
+
+
+.subContiner{
+    width: 80px;
+    height: 32px;
+    background: #FFF;
+    border: 1px solid #d9d9d9;
+    border-left: 0;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}

@@ -1,0 +1,200 @@
+.Z_Title{overflow: hidden;}
+
+.Z_Search p{
+  color: #419BF9;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+  padding:8px 20px 8px 10px;
+  position:relative;
+  z-index: 20;
+  border-bottom: 1px solid #fff;
+}
+.Z_SearchPull{
+  width:100%;
+  min-height: 250px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  z-index: 10;
+  margin-top: -1px;
+}
+
+.Z_Search {
+  display: inline-block;
+}
+
+
+
+.Z_SearchPull .button{
+  text-align: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.Z_SearchPull .size{
+  margin-top: 20px;
+  margin-left: 13px;
+}
+.Z_SearchPull .size span{
+  cursor: pointer;
+}
+
+
+/*
+.Z_SearchPull .button span:first-child{
+  color: #F89985;
+  margin-right: 10px;
+}
+*/
+.Z_AddNew{
+  float: right;
+  display: inline-block;
+  padding: 8px 20px 8px 10px;
+  color: #419BF9;
+  cursor: pointer;
+}
+
+
+
+.animated {
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  width:400px;
+  height:450px;
+  position: absolute;
+  top: 0px;
+  right:0px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+.Z_bg{
+  background: white;
+  width: 400px;
+  height: 450px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.Z_bg .title_p{
+  padding: 10px 0 10px 10px;
+}
+.Z_bg .center{
+  width: 100%;
+  height: 100px;
+  background: #FEF5CF;
+}
+.Z_bg .center .title_p2{
+
+}
+.Z_bg .center_c{
+  margin-left:120px;
+  padding-top:6px;
+}
+.Z_bg .title_p2{
+  font-size: 16px;
+  color: #323232;
+}
+.Z_bg .num{
+  font-size: 24px;
+  color: #F76A57;
+}
+.Z_bg .time{
+  font-size: 10px;
+  color: #999999;
+}
+.Z_bg .tab{
+  margin-top: 20px;
+}
+.close_tab{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  cursor: pointer;
+}
+.Z_bg .tab .p{
+  margin-left:40px;
+  margin-top:20px;
+}
+.Z_bg .tab .p p{
+  margin-bottom:15px;
+}
+.Z_bg .tab .p span{
+  color: #323232;
+}
+.Z_bg .tab .button{
+  margin-top:10px;
+  text-align: center;
+}
+.rule{
+  position:absolute;
+  top:20px;
+  right:165px;
+  cursor: pointer;
+}
+
+.Pagination{
+  margin-top:10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.Pagination p{
+  border:1px solid #ccc;
+  padding: 4px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  float: right;
+  margin-left: 10px;
+}
+.ellipsis{
+  width: 100px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}
+.margin{
+  margin:0 10px;
+}
+.hide{
+  display: none;
+}
+.showStyle{
+  position: absolute;
+  top:14px;
+  right: 5px;
+}

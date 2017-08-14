@@ -1,0 +1,60 @@
+.colorWrapper {
+    composes: themeBg from 'sharedStyles/global.css';
+    width: 100%;
+    margin-bottom: 43px;
+}
+
+.container {
+    composes: centeredContent from 'sharedStyles/global.css';
+    composes: clearfix from 'sharedStyles/global.css';
+    height: 80px;
+    line-height: 80px;
+}
+
+.title {
+    composes: floatLeft from 'sharedStyles/global.css';
+}
+
+.info {
+    composes: floatRight from 'sharedStyles/global.css';
+}
+
+.infoPos {
+    position: relative;
+    cursor: pointer;
+    color: #A3A3A3;
+}
+
+.container>* {
+    color: #ffffff;
+}
+
+.logout {
+    color: #ffffff;
+    margin-left: 5px;
+    color: #A3A3A3;
+}
+
+.logout:hover {
+    color: #ffffff;
+}
+
+.slash {
+    margin: 0 5px;
+}
+
+.menuStyle {
+  float: left;
+  margin-left: 50px;
+  line-height: 80px;
+  color: #141414;
+  font-size: 14px;
+}
+
+.menuStyle h6{
+    font-weight: normal;
+    font-size: 16px;
+}
+.aniEase{
+	transition:All 0.4s ease-in-out;-webkit-transition:All 0.4s ease-in-out;-moz-transition:All 0.4s ease-in-out;-o-transition:All 0.4s ease-in-out;
+}

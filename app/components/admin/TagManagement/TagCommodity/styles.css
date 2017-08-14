@@ -1,0 +1,191 @@
+
+.Z_Search p{
+  color: #F89985;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+  padding:8px 20px 8px 10px;
+  position:relative;
+  z-index: 20;
+  border-bottom: 1px solid #fff;
+}
+.Z_SearchPull{
+  width:100%;
+  min-height: 250px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  z-index: 10;
+  margin-top: -1px;
+}
+.hide{
+  display: none;
+}
+.showStyle{
+  position: absolute;
+  top:14px;
+  right: 5px;
+}
+.Z_Search {
+  display: inline-block;
+}
+
+.Z_SearchPull .button{
+  text-align: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.Z_SearchPull .size{
+  margin-top: 20px;
+  margin-left: 4px;
+}
+.Z_SearchPull .size span{
+  cursor: pointer;
+}
+
+
+
+.animated {
+  -webkit-animation-duration:0.1s;
+  animation-duration:0.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  width:400px;
+  height:550px;
+  position: fixed;
+  top: 40px;
+  right:350px;
+  border-radius: 10px;
+  z-index:100;
+}
+
+.animated_1 {
+  -webkit-animation-duration:0.1s;
+  animation-duration:0.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: fixed;
+  top:40px;
+  right:350px;
+  border-radius: 10px;
+  z-index:100;
+}
+
+
+@-webkit-keyframes fadeInDown {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+.Z_bg{
+  background: white;
+  width: 400px;
+  height: 550px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.Z_bg .title_p{
+  padding: 10px 0 10px 10px;
+}
+
+
+.Z_bg .tab{
+padding-top: 20px;
+  border-top: 1px solid #EDF0F2;
+}
+.close_tab{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  cursor: pointer;
+}
+.Z_bg .tab .p{
+  margin-left:40px;
+  margin-top:20px;
+}
+.Z_bg .tab .p p{
+  margin-bottom:15px;
+}
+.Z_bg .tab .p span{
+  color: #323232;
+}
+.Z_bg .tab .button{
+  margin-top:10px;
+  text-align: center;
+}
+.rule{
+  position:absolute;
+  top:10px;
+  right:160px;
+  cursor: pointer;
+}
+.Pagination{
+  margin-top:10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.Pagination p{
+  border:1px solid #ccc;
+  padding: 4px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  float: right;
+  margin-left: 10px;
+}
+.brandImage {
+  width: 40px;
+  height: 40px;
+}
+.upload_pic{
+  width: 100px;
+  height: 100px;
+  background: #EDF0F2;
+  border: 1px solid #DCE1E5;
+}
+.ellipsis{
+  width: 100px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}
+.rightButton{
+  padding-bottom: 4px;
+  overflow: hidden;
+  margin-top: -22px;
+  margin-right: 8px;
+}
+.rightButton p{
+  color: #FFB19C;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+{
+      "code": "200",
+      "msg": "成功",
+      "data":
+      {
+             "detail":
+             [
+                    {
+                           "channelId": "huihua",
+                           "channelName": "会花1",
+                           "rcord": "32131"
+                    },
+                    {
+                           "channelId": "hz_offline",
+                           "channelName": "会赚线下",
+                           "rcord": "1231"
+                    },
+                    {
+                           "channelId": "wl",
+                           "channelName": "物料",
+                           "rcord": "1231"
+                    },{
+                           "channelId": "huihua1",
+                           "channelName": "会花2",
+                           "rcord": "32131"
+                    },
+                    {
+                           "channelId": "hz_offline1",
+                           "channelName": "会赚线下1",
+                           "rcord": "1231"
+                    },
+                    {
+                           "channelId": "wl1",
+                           "channelName": "物料1",
+                           "rcord": "1231"
+                    }
+             ]
+      }
+}

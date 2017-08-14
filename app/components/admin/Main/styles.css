@@ -1,0 +1,16 @@
+.container {
+    min-height: 100vh;
+}
+
+.content {
+    composes: centeredContent from 'sharedStyles/global.css';
+    composes: clearfix from 'sharedStyles/global.css';
+    background: #FFF;
+}
+
+.main {
+    composes: floatRight from 'sharedStyles/global.css';
+    width: 1000px;
+    padding-top: 53px;
+    /*min-height: calc(100vh - 50px - 25px);*/
+}

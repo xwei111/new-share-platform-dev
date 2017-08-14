@@ -1,0 +1,340 @@
+.container {
+  width: 85%;
+  margin: 0 auto;
+  height: 350px;
+}
+
+.reportDataCont canvas{
+	position: absolute;
+	left: 5px !important;
+}
+
+/*数据报表*/
+.reportData{
+	margin-top: 20px;
+}
+
+.reportDataCont{
+	overflow: hidden;
+	/*border: 1px solid #CCC;*/
+}
+
+.reportDataCont>div{
+	float: left;
+	width: 49%;height: 300px;
+}
+
+.labelall{
+  position: relative;
+}
+
+.labelOne{
+  height:80px;
+  width:100%;
+  padding-top:55px;
+  padding-left:60px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.labelOne div{
+  height:14px;
+  width: 7px;
+  background: #f77365;
+  float: left;
+  margin-top:4px;
+}
+.labelOne p{
+  float: left;
+  margin-left:6px;
+}
+.labelOne span{
+  display: block;
+  float: left;
+  height: 1px;
+  width: 730px;
+  border-bottom: 1px dashed #ccc;
+  margin-left:10px;
+  margin-top: 10px;
+}
+.labelshun{
+  height: 30px;
+  width:200px;
+  position: absolute;
+  right: 0;
+  top:25px;
+  right: 40px;
+  font-size: 14px;
+  z-index: 99;
+}
+.labelshun p{
+  float: left;
+  line-height: 30px;
+  margin-right:10px;
+}
+
+
+.labelTwo{
+  height:70px;
+  width:100%;
+  padding-top:15px;
+  padding-left:60px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.labelTwo div{
+  height:14px;
+  width: 7px;
+  background: #f77365;
+  float: left;
+  margin-top:4px;
+}
+.labelTwo p{
+  float: left;
+  margin-left:6px;
+}
+.labelTwo span{
+  display: block;
+  float: left;
+  height: 1px;
+  width: 640px;
+  border-bottom: 1px dashed #ccc;
+  margin-left:10px;
+  margin-top: 10px;
+}
+.search{
+  position: absolute;
+  bottom:12px;
+  left:65px;
+  font-size: 14px;
+}
+.highlow{
+  position: absolute;
+  bottom:15px;
+  left:145px;
+  font-size: 14px;
+}
+.low{
+  position: absolute;
+}
+.high{
+  position: absolute;
+  left:144px;
+}
+.kind{
+  position: absolute;
+  font-size: 12px;
+  color:#999;
+  top:10px;
+  left: 20px;
+}
+.dress{
+  position: absolute;
+  font-size: 12px;
+  color:#999;
+  bottom:84px;
+  left:90px;
+}
+.goodskind{
+  position: absolute;
+  font-size: 12px;
+  width:200px;
+  color:#999;
+  top:60px;
+  left:160px;
+}
+/*------*/
+.channelBox{
+    margin-top: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+.channelLeft{
+    margin-top: 30px;
+    float: left;
+    width: 125px;
+    background: #f7f7f7;
+}
+.channelLeft p{
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 14px;
+    color: #000;
+}
+.channelLeft p span{
+    display: block;
+    font-size: 12px;
+    color: #999;
+}
+
+.channelHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: stretch;
+    width: 700px;
+    height:30px;
+    margin-left: 125px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.flexItem {
+    background: #f7f7f7;
+    order: 0;
+    align-self: auto;
+    flex-basis: 300px;
+    height: 30px;line-height: 30px;
+    font-size: 14px;
+}
+.channelBody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: stretch;
+    width: 700px;
+    height:99px;
+    margin-left: 125px;
+    text-align: center;
+}
+.flexItemBody {
+    order: 0;
+    align-self: auto;
+    flex-basis: 300px;
+    height: 99px;line-height: 99px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.marketsExcelUl{
+    overflow: hidden;
+    width: 100%;
+}
+.marketsExcelUl li{
+    float: left;
+    width: 25%;
+    border: 1px solid #999;
+    text-align: center;
+}
+.bodyUl{
+    float: left;
+    width: 25%;
+/*    border-right: 1px solid #999;*/
+}
+.bodyUl li{
+    text-align: center;
+    border: 1px solid #999;
+    border-top: 0;
+    border-right: 0;
+}
+li.borderNone{
+    border-right: 0;
+}
+ul.borderRight{
+    border-right: 1px solid #999;
+}
+
+
+/*------*/
+.fansNumberChart{
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0 75px;
+}
+
+.fansNumberChart>div{
+    float:left;
+}
+
+.fansNumberChart .visualMapWrap{
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 150px;
+    overflow: hidden;
+}
+
+.fansNumberChart .visualMapWrap p{
+    float:left;
+    font-size: 16px;
+    width: 16px;
+    line-height: 18px;
+    margin-right: 20px;
+}
+
+.fansNumberChart .visualMapWrap span{
+    float:left;
+    width: 64px;
+    height:193px;
+    background: url(images/visual_map.png) no-repeat center;
+}
+
+.fansNumberChart .pyramidChart{
+    margin-left: 50px;
+}
+
+.fansNumberChart .pyramidChart>div{
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.fansNumberChart .pyramidChart .bak{
+    width: 342px;
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.fansNumberChart .pyramidChart .fansNumber{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(1)>div:nth-child(2){
+    position: relative;
+    right: 50px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(2)>div:nth-child(2){
+    position: relative;
+    right: 27px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(3)>div:nth-child(2){
+    position: relative;
+    right: -3px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(4)>div:nth-child(2){
+    position: relative;
+    right: -34px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(1) .bak{
+    height:61px;
+    line-height: 61px;
+    background: url(images/pyramid_01.png) no-repeat center;
+}
+.fansNumberChart .pyramidChart>div:nth-child(2) .bak{
+    height:84px;
+    line-height: 84px;
+    background: url(images/pyramid_02.png) no-repeat center;
+}
+.fansNumberChart .pyramidChart>div:nth-child(3) .bak{
+    height:108px;
+    line-height: 108px;
+    background: url(images/pyramid_03.png) no-repeat center;
+}
+.fansNumberChart .pyramidChart>div:nth-child(4) .bak{
+    height:145px;
+    line-height: 145px;
+    color:#666;
+    background: url(images/pyramid_04.png) no-repeat center;
+}

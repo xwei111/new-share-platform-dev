@@ -1,0 +1,123 @@
+.container {
+  width:1200px;
+  min-height:624px;
+  font-size:12px;
+  font-family: '微软雅黑',  Arial, sans-serif;
+  background:white;
+  margin: 0 auto;
+}
+
+.dateSelecter{
+  width: 100%;
+  padding: 30px 0;
+  padding-bottom: 0;
+  background: #8FB2FF;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContainer{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mainBox{
+    overflow: hidden;
+    width: 90%;
+    padding: 15px 0;
+    margin-left: 20px;
+}
+
+
+.commonTit{
+    overflow: hidden;
+    width: 90%;
+    margin: 30px 0 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.commonTit p{
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    background: #FFF;
+}
+.commonTit span{
+    position: absolute;
+    top: 0;left: 0;bottom: 0;margin: auto;
+    display: inline-block;
+    background: #419BF9;
+    width: 10px;height: 15px;
+}
+
+.lookDetail{
+  text-align: right;
+  cursor: pointer;
+  color: #999;
+  font-size: 14px;
+  margin-right: 95px;
+}
+
+.cardBox{
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  margin-left: 1px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.cardBox .cardImg{
+  float: left;
+  width: 80px;
+}
+.cardBox .cardPos{
+  position: absolute;
+  top: 0;bottom: 0;right: 5px;
+  margin: auto;
+  width: 19px;
+}
+
+.cardInfo{
+  overflow: hidden;
+  float: left;
+  margin-left: 5px;
+  width: 270px;
+}
+
+.cardInfo p{
+  margin-left: 15px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.cardInfo span{
+  display: block;
+  margin-left: 15px;
+  font-size: 12px;
+  color: #666;
+}
+
+.boxLimit{
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  width: 255px;
+}
+
+.subContiner{
+    width: 80px;
+    height: 32px;
+    background: #FFF;
+    border: 1px solid #d9d9d9;
+    border-left: 0;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}

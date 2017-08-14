@@ -1,0 +1,290 @@
+.container {
+  width:100%;
+  min-height:624px;
+  font-size:12px;
+  font-family: '微软雅黑',  Arial, sans-serif;
+  background:white;
+}
+.mainContainer{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+.commonTit{
+    overflow: hidden;
+    width: 90%;
+    background: url(images/dashed_line.jpg) repeat-x center;
+    margin: 30px 0 20px 0;
+}
+.commonTit p{
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    background: #FFF;
+}
+.commonTit span{
+    position: absolute;
+    top: 0;left: 0;bottom: 0;margin: auto;
+    display: inline-block;
+    background: #419BF9;
+    width: 10px;
+    height: 15px;
+}
+.mainNews{
+  width: 90%;
+  background: #FAFAF9;
+  padding:20px 30px;
+}
+.mainNews p{
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 16px;
+}
+.mainNews span{
+  font-size: 14px;
+  color: #666;
+}
+.dataIndex{
+  margin-top: 40px;
+  width: 90%;
+  margin-bottom:100px;
+  overflow: hidden;
+}
+.dataIndex .dataIndex_four{
+  font-size: 16px;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+}
+.dataIndex .dataIndex_four img{
+  margin-right: 5px;
+}
+.dataIndex .dataIndex_four p:last-child{
+  font-size: 28px;
+}
+.dataIndex .dataIndex_four:nth-child(1) p:last-child{
+  color: #FF6561;
+}
+.dataIndex .dataIndex_four:nth-child(2) p:last-child{
+  color: #00CFFF;
+}
+.dataIndex .dataIndex_four:nth-child(3) p:last-child{
+  color: #3500D8;
+}
+.dataIndex .dataIndex_four:nth-child(4) p:last-child{
+  color: #00C287;
+}
+.dataIndex_pic{
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+.dataIndex_pic .dataIndex_pic_title{
+  color:#FFC051;
+}
+.dataIndex .dataIndex_IconL p span,.dataIndex .dataIndex_IconR p span{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.dataIndex .dataIndex_IconL p:first-child span{
+  background: #DBF1FF;
+}
+.dataIndex .dataIndex_IconL p:last-child span{
+  background: #009BF8;
+
+}
+.dataIndex .dataIndex_IconR p:first-child span{
+  background: #FFDDD9;
+}
+.dataIndex .dataIndex_IconR p:last-child span{
+  background: #FF4645;
+}
+.dataIndex .dataIndex_pic_2{
+  background: url(images/dataIndex_pic_2.png) no-repeat center;
+  height: 100px;
+  text-align: center;
+}
+.dataIndex .dataIndex_pic_div{
+  line-height: 70px;
+}
+.dataIndex .dataIndex_pic_P{
+  text-align: center;
+  margin-top: -45px;
+  font-weight: bold;
+}
+.dataIndex .dataIndex_pic_1{
+  background: url(images/dataIndex_pic_1.png) no-repeat center;
+  height: 100px;
+  text-align: center;
+}
+.dataIndex .dataIndex_pic_3{
+  background: url(images/dataIndex_pic_3.png) no-repeat center;
+  height: 100px;
+  text-align: center;
+}
+.dataIndex .dataIndex_pic_4{
+  background: url(images/dataIndex_pic_4.png) no-repeat center;
+  height: 100px;
+  text-align: center;
+}
+.dataIndex  .dataIndex_pic_4,.dataIndex .dataIndex_pic_1{
+  color: white;
+}
+.MoreYChart{
+  width: 90%;
+  margin: 10px auto;
+}
+.goodsChoose{
+  margin-top:30px;
+  margin-bottom:30px;
+  color: #000;
+}
+
+
+.fansNumberChart{
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0 75px;
+}
+
+.fansNumberChart>div{
+    float:left;
+}
+
+.fansNumberChart .visualMapWrap{
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 150px;
+    overflow: hidden;
+}
+
+.fansNumberChart .visualMapWrap p{
+    float:left;
+    font-size: 16px;
+    width: 16px;
+    line-height: 18px;
+    margin-right: 20px;
+}
+
+.fansNumberChart .visualMapWrap span{
+    float:left;
+    width: 64px;
+    height:193px;
+    background: url(images/visual_map.png) no-repeat center;
+}
+
+.fansNumberChart .pyramidChart{
+    margin-left: 50px;
+}
+
+.fansNumberChart .pyramidChart>div{
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.fansNumberChart .pyramidChart .bak{
+    width: 342px;
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fansNumberChart .pyramidChart .fansNumber{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(1)>div:nth-child(2){
+    position: relative;
+    right: 50px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(2)>div:nth-child(2){
+    position: relative;
+    right: 27px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(3)>div:nth-child(2){
+    position: relative;
+    right: -3px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(4)>div:nth-child(2){
+    position: relative;
+    right: -34px;
+}
+
+.fansNumberChart .pyramidChart>div:nth-child(1) .bak{
+    height:61px;
+    line-height: 61px;
+    background: url(images/pyramid_01.png) no-repeat center;
+}
+.fansNumberChart .pyramidChart>div:nth-child(2) .bak{
+    height:84px;
+    line-height: 84px;
+    background: url(images/pyramid_02.png) no-repeat center;
+}
+.fansNumberChart .pyramidChart>div:nth-child(3) .bak{
+    height:108px;
+    line-height: 108px;
+    background: url(images/pyramid_03.png) no-repeat center;
+}
+.fansNumberChart .pyramidChart>div:nth-child(4) .bak{
+    height:145px;
+    line-height: 145px;
+    color:#666;
+    background: url(images/pyramid_04.png) no-repeat center;
+}
+
+
+.fansTitle{
+  width: 180px;
+  margin: 20px auto 0 auto;
+}
+
+.fansTitle div{
+  display: inline-block;
+  width: 110px;
+}
+.fansTitle div p{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.fansTitle div p:first-child{
+  margin-bottom: 10px;
+}
+.fansTitle div p:last-child{
+  font-size: 28px;
+  color: #FF4645;
+}
+.fansConsum{
+  margin-bottom:100px;
+}
+.DifferentDisCharts{
+  width: 90%;
+  margin: 0 auto;
+}
+.DifferentDisChart{
+  display: inline-block;
+  width: 33%;
+  height: 200px;
+  margin-left: -40px;
+  text-align:right;
+}
+.DifferentDisChart p{
+  margin-bottom: -30px;
+  margin-left: -20px;
+}

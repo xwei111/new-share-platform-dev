@@ -1,0 +1,250 @@
+
+.newBox{
+  position: absolute;
+  z-index: 66;
+  height: 500px;
+  width: 600px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  z-index: 2;
+  margin-left: -16px;
+  margin-top: -16px;
+}
+
+.newheader{
+  height:40px;
+  width:100%;
+}
+.newheader p{
+  line-height: 40px;
+  color: #323232;
+}
+.newheader p:nth-of-type(1){
+  float: left;
+  margin-left: 20px;
+}
+.newheader p:nth-of-type(2){
+  float: right;
+  margin-right: 20px;
+}
+.newfile{
+  width: 100%;
+  height:145px;
+  background: rgba(237,240,242,0.50);
+}
+.newfiletop{
+  width: 100%;
+  height:70px;
+  position: relative;
+}
+.newfiletop img{
+  position: absolute;
+  width:140px;
+  height:60px;
+  top:50%;
+  left:50%;
+  margin-left:-70px;
+  margin-top:-30px;
+}
+.newfiletop p{
+  position: absolute;
+  z-index: 2;
+  width:66px;
+  height: 20px;
+  top:50%;
+  left:50%;
+  margin-left:-33px;
+  margin-top:5px;
+  text-align: center;
+  color:#F76A57;
+  border: none;
+  cursor: pointer;
+}
+.newfiletop div{
+  cursor: pointer;
+  position: absolute;
+  z-index: 22;
+  width:0px;
+  height: 0px;
+  top:50%;
+  left:50%;
+  margin-left:-33px;
+  margin-top:5px;
+  text-align: center;
+  color:#F76A57;
+  border: none;
+}
+.newfiletop input{
+  cursor: pointer;
+  position: absolute;
+  z-index: 22;
+  width:100px;
+  height: 50px;
+  text-align: center;
+  color:#F76A57;
+  border: none;
+  background: #fff;
+  opacity: 0;
+  left: -18px;
+  top: -24px;
+}
+.newfilecenter{
+  width:100%;
+  height:45px;
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+}
+.newfilebottom{
+  text-align: center;
+  font-size: 14px;
+  color:#F89985;
+}
+.newfilebottom span{
+  cursor: pointer;
+}
+.newdata{
+  width: 600px;
+  height:246px;
+  position: relative;
+  background: #fff;
+  padding:10px 0px 0px 0px;
+  margin-right: 2px;
+  text-align: center;
+}
+.newdata ul{
+  min-width: 100px;
+  float: right;
+  right:0;
+}
+.newdata ul li{
+  float: left;
+  font-size: 12px;
+  color: #999;
+  width: 90px;
+  line-height: 22px;
+  border-bottom: 1px solid #DCE1E5;
+}
+.newbtn{
+  position: absolute;
+  bottom:20px;
+  left:200px;
+}
+.newbtn button{
+  width:90px;
+  height: 32px;
+  border-radius: 100px;
+  border: none;
+}
+.newbtn button:nth-of-type(1){
+  background: #F76A57;
+  color:#fff;
+}
+.newbtn button:nth-of-type(2){
+  background: #FFEBE4;
+  border: 1px solid #FFCCBA;
+  color:#f89985;
+  margin-left: 10px;
+}
+
+
+
+.newtable{
+  border:none;
+  width:600px;
+}
+.newtable thead tr th{
+    background:#fff;
+    border-bottom: 1px solid #DCE1E5;
+}
+.newtable ul li{
+  width:20px;
+}
+.newtable thead tr th span{
+  color: #999;
+}
+.allContent{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  width:200px;
+  height:100px;
+  margin-left:-100px;
+  margin-top:-50px;
+  border-radius: 4px;
+  border:1px solid #ccc;
+  background:#fff;
+  text-align: center;
+  line-height: 100px;
+  animation: zoomIn 0.3s;
+}
+.titleXXX{
+  position: absolute;
+  top:5px;
+  right:5px;
+  cursor: pointer;
+  color:#DCE1E5;
+  font-size: 14px
+}
+.allContents{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  width:400px;
+  height:200px;
+  overflow-y: auto;
+  margin-left:-200px;
+  margin-top:-100px;
+  border-radius: 4px;
+  border:1px solid #ccc;
+  background:#fff;
+  animation: zoomIn 0.3s;
+  padding-bottom: 20px;
+}
+.allContents div{
+  height:24px;
+  line-height: 28px;
+  margin-left:10px;
+}
+.allContents p{
+  height:30px;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  border-bottom: 1px solid #999;
+}
+.allContents ul{
+  width: 100%;
+  padding:0 20px;
+  min-height:10px;
+  overflow: auto;
+}
+.allContents ul li{
+  float: left;
+  margin-top:5px;
+  margin-left:20px;
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,724 @@
+.createActivity {
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    background: url(images/create_btn.png) no-repeat center;
+    cursor: pointer;
+}
+
+.bg2{
+    background: url(images/create_btn_2.png) no-repeat center;
+}
+
+.bg3{
+    background: url(images/create_btn_3.png) no-repeat center;
+}
+
+.createActivity:hover{
+    color: #FFF;
+}
+
+
+input:focus{outline:none;}
+.createWrap {
+  position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 150px;
+    background: #F7F9FA;
+    border-radius: 10px 10px 0 0;
+}
+
+.createTit{
+    font-weight: bold;
+}
+
+.tips{
+    position: absolute;
+    top: 0;right: 10px;
+    width: 50px;height: 36px;line-height: 30px;
+    text-align: center;
+    color: #F76A57;
+    font-weight: bold;
+    background: url(images/tips_bg.png) no-repeat center;
+}
+
+.createWrap div{
+    overflow: hidden;
+    padding-top: 30px;
+    width: 100%;height: 100px;
+}
+.createWrap div img{
+    float: left;
+    display: block;
+    margin-left: 2%;
+    width: 28%;
+}
+.createWrap div p{
+    float: left;
+    width: 65%;
+    margin-left: 5%;
+}
+.cBtn{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;line-height: 40px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+.cBtn:hover{color: #FFF;}
+
+.cbg1{background: #73D0B3;}
+.cbg2{background: #F89985;}
+.cbg3{background: #AA91CD;}
+
+.successImg{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.successTit{
+    text-align: center;
+    font-size: 30px;
+    color: #999;
+}
+
+.successInfo{
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}
+
+.successJump{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #F89985;
+    font-size: 16px;
+}
+
+
+.mainContainerrightC{
+    margin-left: 48px;
+}
+
+.searchBigBox{
+  width: 800px;
+  height:31px;
+}
+.searchBox{
+    float:left;
+}
+.searchBox i{
+  color: #ccc;
+}
+.searchBox input{
+  border-radius: 20px;
+}
+.antdownC{
+    display: block;
+    float: left;
+    height:28px;
+    line-height: 28px;
+    text-align: center;
+    width:80px;
+    color:#F89985;
+    text-decoration: none;
+    margin-left:3px;
+}
+#antdownC{
+    position: relative;
+    line-height:26px;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+    border-radius: 4px 4px 0 0;
+    z-index: 20;
+}
+.menu{
+  position: relative;
+    margin-top: -4px;
+    border-radius: 4px;
+    width:920px;
+    border:1px solid #ccc;
+    padding:40px 0 0 20px;
+    z-index: 10;
+}
+.hide{
+  display: none;
+}
+#hide{
+  display: none;
+}
+.actyBox{
+  width:100%;
+  height:50px;
+  margin-bottom: 10px;
+}
+.activeName{
+  display: block;
+  float:left;
+  height:30px;
+  line-height: 30px;
+}
+.activeInpt{
+  float:left;
+  border:1px solid #ccc;
+  border-radius: 20px;
+  height:30px;
+  width:200px;
+  margin-left:5px;
+  padding-left: 10px;
+}
+.activeContent{
+  height:50px;
+  width:100%;
+}
+.activeContent p{
+  float:left;
+}
+.activeContent ul{
+  float:left;
+}
+.activeContent ul li{
+  float:left;
+  margin-left:20px;
+  color:#000;
+  cursor: pointer;
+}
+.activeContent ul .clickColor{
+  color:#F89985;
+}
+.activeButton{
+  height:50px;
+  width:100%;
+}
+.activeButton div{
+  float: right;
+  border: none;
+  border-radius: 3px;
+  margin-right: 15px;
+  color:#F89985;
+  cursor: pointer;
+}
+.activeButton p{
+  float: right;
+  margin-right: 430px;
+  color:#000;
+  cursor: pointer;
+}
+
+
+.mainContainer {
+    width: 920px;
+    margin: 20px auto;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    position: relative;
+    background: #FFF;
+}
+.tabC{
+  margin-left:20px;
+}
+.tabC thead tr th{
+    background:#fff;
+    border-bottom: 1px solid #DCE1E5;
+}
+.tabC thead tr th span{
+  color: #999;
+}
+
+.tabC li{
+  line-height: 27px;
+}
+
+
+.clicksearchC{
+  color:#F89985;
+  cursor: pointer;
+}
+.clicksearchB{
+  cursor: pointer;
+}
+.footerContainerC{
+    zoom:1;
+    margin-top:17px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.btnsC{
+    float:right;
+    margin-left:10px;
+}
+.pageC{
+    float: right;
+}
+
+
+
+.activityDetailsBox {
+    position: absolute;
+    left:50%;
+    margin-left: -215px;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 550px;
+    height: 538px;
+    background: #fff;
+    border: 1px solid #e4e4e4;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1), -1px -1px 1px rgba(0, 0, 0, .1);
+}
+#activityDetailsBox{
+  animation:fadeInRight 0.5s;
+}
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.activityDetailsBox .header {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    border-bottom: 1px solid #f7f7f7;
+    box-shadow: 1px 0px 1px #f7f7f7;
+}
+
+.activityDetailsBox .header p {
+    text-indent: 20px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.activityDetailsBox .header .closeBox {
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    color:#DCE1E5;
+    line-height: 22px;
+    position: absolute;
+    right: 20px;
+    bottom: 9px;
+    text-align: center;
+    font-style: normal;
+}
+
+.activityDetailsBox .actName {
+    width: 470px;
+    height: 50px;
+    margin: 20px auto 20px;
+    border-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.activityDetailsBox .formLeft {
+    text-align: right;
+}
+
+.activityDetailsBox .viewAll {
+    cursor: pointer;
+    color: #fc9f9f;
+    margin-left: 30px;
+}
+
+.activityDetailsBox .coupons, .activityEditerBox .coupons {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 350px;
+    height: 125px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 95px;
+    vertical-align: top;
+    margin-right: 100px;
+}
+
+.activityDetailsBox .coupons .couponName, .activityEditerBox .coupons .couponName {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 30px auto;
+}
+
+.activityDetailsBox .coupons .viewDetails, .activityEditerBox .coupons .viewDetails {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #2db7f5;
+}
+
+.activityDetailsBox .btnWrap {
+    border-top: 1px solid #e4e4e4;
+    width: 520px;
+    margin: 20px auto 0;
+    text-align: center;
+    padding-top: 22px;
+}
+.activityDetailsBox #btnWrap {
+    border-top: none;
+}
+
+.activityDetailsBox .btnWrap button {
+    margin: 0 10px;
+}
+
+
+.activityEditerBox {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    width: 1200px;
+    height: 810px;
+    background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e4;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1), -1px -1px 1px rgba(0, 0, 0, .1);
+}
+
+.activityEditerBox .header {
+    width: 100%;
+    height: 45px;
+    background: #f9f9f9;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.activityEditerBox .container {
+    padding: 40px 55px;
+}
+
+.activityEditerBox .actSetWrap {
+    padding: 45px 0;
+}
+
+.activityEditerBox .couponsSetWrap {
+    padding: 30px 40px;
+}
+
+.activityEditerBox .actSetWrap .formLeft {
+    text-align: right;
+    vertical-align: middle;
+    line-height: 28px;
+}
+
+.activityEditerBox .actSetWrap .formRight {
+    line-height: 28px;
+}
+
+.activityEditerBox .actSetWrap .addStore {
+    margin-left: 30px;
+    color: #2db7f5;
+}
+
+.activityEditerBox .actSetWrap .addCrowd {
+    margin-left: 20px;
+    color: #2db7f5;
+}
+
+.activityEditerBox .creatCoupons {
+    display: inline-block;
+    width: 350px;
+    height: 125px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 28px;
+    text-align: center;
+    line-height: 125px;
+}
+
+.activityEditerBox .btnWrap{
+    width: 100%;
+    margin: 80px auto 0;
+    text-align: center;
+}
+.activityEditerBox .btnWrap .reset{
+    margin: 0 50px 0 30px;
+}
+.couponInfo {
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    height: 105px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: url(images/coupon_bg.png) no-repeat center;
+    background-size: 100% auto;
+}
+.couponPic {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-right: 20px;
+    border-radius: 80px;
+    background: #FFF url(images/not_found.png) no-repeat center;
+    background-size: 100% auto;
+}
+.couponTit {
+    margin-top: 12px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.couponFee {
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.couponFee span {
+    font-weight: bold;
+}
+
+.watchInside {
+    position: absolute;
+    color: #fc9f9f;
+    bottom: 7px;
+    right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.detailBox{
+  width:548px;
+  height:413px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.allContent{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  width:400px;
+  height:200px;
+  margin-left:-200px;
+  margin-top:-100px;
+  border-radius: 4px;
+  border:1px solid #ccc;
+  background:#fff;
+  animation: zoomIn 0.3s;
+}
+.allContentNonePeople{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  width:400px;
+  height:200px;
+  margin-left:-200px;
+  margin-top:-100px;
+  text-align: center;
+  line-height: 200px;
+  border-radius: 4px;
+  border:1px solid #ccc;
+  background:#fff;
+  animation: zoomIn 0.3s;
+}
+.allContents{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  width:400px;
+  height:460px;
+  margin-left:-200px;
+  margin-top:-224px;
+  border-radius: 4px;
+  border:1px solid #ccc;
+  background:#fff;
+  animation: zoomIn 0.3s;
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+.titleTop{
+  width:400px;
+  height: 40px;
+  padding:10px;
+  border-bottom: 1px solid #ccc;
+}
+.titleTops{
+  width:400px;
+  height: 56px;
+  text-align: center;
+  line-height: 56px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.titleName{
+  font-size: 14px;
+  font-weight: 800;
+  float: left;
+}
+.titleX{
+  float: right;
+  cursor: pointer;
+  color:#DCE1E5;
+  margin-left: 3px;
+  margin-top:5px;
+  font-size: 14px;
+}
+.titleXXX{
+  float: right;
+  cursor: pointer;
+  color:#DCE1E5;
+  margin-right: 10px;
+  margin-top:10px;
+  font-size: 14px;
+}
+.titleList{
+  width:398px;
+  height: 156px;
+  padding:10px;
+}
+.marklist{
+  height:20px;
+  float: left;
+  margin-right: 20px;
+}
+.titleUl{
+  height: 136px;
+  width:398px;
+  overflow-y: auto;
+}
+.nameC{
+  float: left;
+  display: inline-block;
+  width:150px;
+  height:40px;
+}
+.nameC span{
+  float: right;
+}
+.nameB{
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  height:40px;
+  width:200px;
+}
+.titleXX{
+  position: absolute;
+  top:16px;
+  right: 14px;
+  color:#DCE1E5;
+  font-weight: normal;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.commonTit{
+    overflow: hidden;
+    width: 90%;
+    margin: 30px 0 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.commonTit p{
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    background: #FFF;
+}
+.commonTit span{
+    position: absolute;
+    top: 0;left: 0;bottom: 0;margin: auto;
+    display: inline-block;
+    background: #419BF9;
+    width: 10px;height: 15px;
+}
+
+.PredictionBox{text-align: left;}
+.c1{font-size: 14px;}
+
+.c1 img{width: 14px;margin-right: 10px;}
+
+.c2{font-size: 34px;}
+
+.c3 span{color: #FFBE40;}
+
+.resultTit{color: #FF5656;font-size: 20px;text-align: center;}
+.resultInfo{color: #419BF9;font-size: 14px;text-align: center;margin-bottom: 20px;}
+.resultBnt{
+    color: #FFF;
+    padding: 5px 10px;
+    background: #419BF9;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}

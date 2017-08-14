@@ -1,0 +1,33 @@
+.content{
+    overflow: hidden;
+    width: 100%;
+}
+
+.commonTit{
+    overflow: hidden;
+    width: 90%;
+    margin: 30px 0 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.commonTit p{
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    background: #FFF;
+}
+.commonTit span{
+    position: absolute;
+    top: 0;left: 0;bottom: 0;margin: auto;
+    display: inline-block;
+    background: #419BF9;
+    width: 10px;height: 15px;
+}
+
+.size{
+}
